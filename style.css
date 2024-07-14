@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
 @media print {
     * {
         print-color-adjust: exact;
