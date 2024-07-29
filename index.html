@@ -15,13 +15,14 @@
         <script src="https://kit.fontawesome.com/73e861a9c2.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="w-full flex flex-col gap-4 px-10 py-8 mx-auto font-light">
+        <div class="w-full flex flex-col gap-4 px-8 py-8 mx-auto font-light">
             <div class="mb-4 text-center">
                 <h1 class="text-4xl mb-2">Ankit Kumar</h1>
-                <div class="text-gray-600 flex items-center justify-center gap-4">
-                    <span> <i class="fa-solid fa-phone"></i> +91 8700751197 </span> |
-                    <span> <i class="fa-solid fa-envelope"></i> ankitkumar36905@gmail.com </span> |
-                    <span> <i class="fa-solid fa-location-dot"></i> Delhi, India </span> |
+                <hr class="h-1 border-gray-600 mb-2" />
+                <div class="text-gray-600 flex items-center justify-center flex-wrap gap-8 mb-2">
+                    <span> <i class="fa-solid fa-phone"></i> +91 8700751197 </span>
+                    <span> <i class="fa-solid fa-envelope"></i> ankitkumar36905@gmail.com </span>
+                    <span> <i class="fa-solid fa-location-dot"></i> Delhi, India </span>
                     <a target="_blank" href="https://www.linkedin.com/in/ankitsaiyan/"
                         ><i class="fa-brands fa-linkedin"></i> in/AnkitSaiyan</a
                     >
@@ -32,16 +33,47 @@
 
             <div class="w-100 flex flex-col gap-2">
                 <!-- Summary -->
-                <h2 class="text-lg text-center">SUMMARY</h2>
-                <hr class="h-1 border-gray-600" />
-                <div class="mb-4 text-sm">
-                    Fullstack Engineer with 3 years of experience in building scalable systems using Node.Js,
-                    Express.Js, Angular, and Azure DevOps. Proficient in English and N4 level Japanese.
+                <div class="title-container">
+                    <h2 class="text-lg title">Summary</h2>
                 </div>
+                <!-- <h2 class="text-lg text-center">PROFESSIONAL SUMMARY</h2> -->
+                <!-- <hr class="h-1 border-gray-600" /> -->
+                <ul class="list-disc ml-4 mb-4 text-sm">
+                    <li>
+                        Fullstack Engineer with 3 years of practical experience in the complete SDLC, including design,
+                        development, testing, and implementation.
+                    </li>
+                    <li>
+                        Proficient in developing RESTful web services and microservices using Node.Js and responsive
+                        SPAs using angular with a strong understanding of web security practices including XSS
+                        prevention, CSP enforcement, input validation, and secure authentication and authorization
+                        mechanisms.
+                    </li>
+                    <li>
+                        Adept at working in agile environments and collaborating effectively with cross-functional teams
+                        to deliver high-quality software solutions.
+                    </li>
+                    <li>
+                        Committed to continuous learning and staying updated with the latest industry trends and
+                        technologies.
+                    </li>
+                </ul>
+                <!-- <div class="mb-4 text-sm text-justify">
+                    Skilled in building robust backend services, creating dynamic and responsive front-end interfaces,
+                    and managing end-to-end project lifecycles. Adept at working in agile environments and collaborating
+                    effectively with cross-functional teams to deliver high-quality software solutions. Proficient in
+                    English and N4 level Japanese, with a strong understanding of web security practices including XSS
+                    prevention, CSP enforcement, input validation, and secure authentication and authorization
+                    mechanisms. Committed to continuous learning and staying updated with the latest industry trends and
+                    technologies.
+                </div> -->
 
                 <!-- Experience -->
-                <h2 class="text-lg text-center">EXPERIENCE</h2>
-                <hr class="h-1 border-gray-600" />
+                <div class="title-container">
+                    <h2 class="text-lg title">Professional Experience</h2>
+                </div>
+                <!-- <h2 class="text-lg text-center">EXPERIENCE</h2> -->
+                <!-- <hr class="h-1 border-gray-600" /> -->
                 <div class="flex flex-col mb-4 gap-2">
                     <!-- Company 1-->
                     <div class="flex flex-col gap-1">
@@ -52,7 +84,7 @@
 
                         <div class="flex items-center justify-start gap-4">
                             <div class="text-gray-600 flex gap-2 items-center flex-1">
-                                <img width="24px" class="object-contain" src="./assets/RS Logo.jpeg" />
+                                <!-- <img width="24px" class="object-contain" src="./assets/RS Logo.jpeg" /> -->
                                 <a target="_blank" href="https://www.linkedin.com/company/remotestate/mycompany/"
                                     >RemoteState Services</a
                                 >
@@ -65,75 +97,71 @@
 
                         <ul class="list-disc ml-4 mb-2 text-sm">
                             <li>
-                                Developed full-stack applications with
-                                <!-- <span class="font-medium">Java</span>, -->
-                                <span class="font-medium">Node.js</span>, <span class="font-medium">Angular</span>,
-                                <span class="font-medium">Azure</span>, <span class="font-medium">SQL Server</span>, and
-                                <span class="font-medium">MongoDB</span>.
+                                Designed and developed robust MVC and microservice architectures using
+                                <span class="font-medium">Node.js</span>, <span class="font-medium">Express</span>,
+                                <span class="font-medium">NestJS</span>, and <span class="font-medium">Azure</span>,
+                                delivering scalable and maintainable solutions.
                             </li>
                             <li>
-                                Engineered real-time chat features with
-                                <span class="font-medium">Websockets</span> and <span class="font-medium">Kafka</span>.
+                                Implemented real-time communication features using
+                                <span class="font-medium">WebSockets</span>, and optimized asynchronous task processing
+                                using <span class="font-medium">Kafka</span> and
+                                <span class="font-medium">RabbitMQ</span> for high-performance event-driven systems.
                             </li>
                             <li>
-                                Integrated <span class="font-medium">OpenAI</span> and
-                                <span class="font-medium">Microsoft Speech-to-Text</span> for smart medical
-                                applications.
+                                Developed AI-powered solutions, including speech-to-text and medical prescription
+                                suggestions, utilizing <span class="font-medium">OpenAI</span> and
+                                <span class="font-medium">Microsoft Speech-to-Text</span> APIs to enhance user
+                                experience.
                             </li>
                             <li>
-                                Implemented <span class="font-medium">CI/CD</span> pipelines and deployed applications
-                                using <span class="font-medium">Azure</span> services.
-                            </li>
-                            <li>
-                                Automated business processes with
+                                Accelerated software delivery through CI/CD pipeline and automation using
                                 <span class="font-medium">Azure Function Apps</span>,
                                 <span class="font-medium">Logic Apps</span>, and
-                                <span class="font-medium">Service Bus</span>.
+                                <span class="font-medium">Service Bus</span>, streamlining business processes.
                             </li>
                             <li>
-                                Optimized <span class="font-medium">SQL</span> queries for improved database
-                                performance.
+                                Optimized database performance by tuning SQL queries and implementing
+                                <span class="font-medium">Redis</span> caching for efficient data retrieval and reduced
+                                latency.
                             </li>
-                            <li>Integrated <span class="font-medium">Redis</span> caching for fast data retrieval.</li>
                             <li>
-                                Applied secure coding practices, including
+                                Ensured application security by adhering to secure coding practices, including
+                                <span class="font-medium">SQL Injection prevention</span>,
                                 <span class="font-medium">XSS prevention</span> and
                                 <span class="font-medium">CSP enforcement</span>.
                             </li>
                             <li>
-                                Developed and published
-                                <span class="font-medium">Angular</span> libraries on
+                                Experience in creating custom frontend libraries for
+                                <span class="font-medium">Angular</span> and publishing on
                                 <span class="font-medium">NPM</span>.
                             </li>
                             <li>
-                                Built <span class="font-medium">Angular</span> web apps with
-                                <span class="font-medium">NgRx</span>,
-                                <span class="font-medium">Angular Material</span>,
-                                <span class="font-medium">Kendo UI</span>, and
-                                <span class="font-medium">Bootstrap</span>.
+                                Built high-performance <span class="font-medium">Angular</span> single-page applications
+                                (SPAs) utilizing <span class="font-medium">NgRx</span>,
+                                <span class="font-medium">Angular Material</span>, and
+                                <span class="font-medium">Kendo UI</span> for robust, responsive and user-friendly
+                                interfaces.
                             </li>
                             <li>
-                                Wrote unit tests with
-                                <span class="font-medium">Karma</span>, <span class="font-medium">Jasmine</span>, and
-                                <span class="font-medium">JUnit</span>.
+                                Wrote comprehensive unit test cases using <span class="font-medium">Karma</span>,
+                                <span class="font-medium">Jasmine</span>, and <span class="font-medium">JUnit</span> to
+                                improve code quality and maintainability.
                             </li>
-                            <li>
-                                Designed applications using
-                                <span class="font-medium">MVC</span> and
-                                <span class="font-medium">Microservices</span> architectures.
-                            </li>
-                            <li>Delivered software solutions for healthcare, banking, and logistics industries.</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Skills -->
-                <h2 class="text-lg text-center">TECHNICAL SKILLS</h2>
-                <hr class="h-1 border-gray-600" />
+                <div class="title-container">
+                    <h2 class="text-lg title">Skills</h2>
+                </div>
+                <!-- <h2 class="text-lg text-center">TECHNICAL SKILLS</h2>
+                <hr class="h-1 border-gray-600" /> -->
                 <ul class="list-disc ml-4 mb-4 text-sm">
                     <li class="mb-1">
-                        <span class="font-bold text-gray-600">Back End Development:</span> Node.js, Express.js, Nest.js,
-                        JavaScript, Java, C
+                        <span class="font-bold text-gray-600">Back End Development:</span> JavaScript, Node.js, Express,
+                        NestJS, Java, C
                     </li>
                     <li class="mb-1">
                         <span class="font-bold text-gray-600">Database:</span> SQL Server, PostgreSQL, MySQL, MongoDB
@@ -149,14 +177,17 @@
                         <span class="font-bold text-gray-600">DevOps:</span> Azure, CI/CD, GitHub Actions
                     </li>
                     <li>
-                        <span class="font-bold text-gray-600">Other Technologies:</span> RESTful, GraphQL, WebSockets,
-                        Kafka, Redis, Microservices, ORMs, Git, Okta, AzureAD, Agile
+                        <span class="font-bold text-gray-600">Other Technologies:</span> RESTful, SOAP, GraphQL,
+                        WebSockets, Kafka, Redis, Microservices, ORM, Git, Okta, AzureAD, Agile
                     </li>
                 </ul>
 
                 <!-- Projects -->
-                <h2 class="text-lg text-center">PROJECTS HANDLED</h2>
-                <hr class="h-1 border-gray-600" />
+                <div class="title-container">
+                    <h2 class="text-lg title">Projects Handled</h2>
+                </div>
+                <!-- <h2 class="text-lg text-center">PROJECTS HANDLED</h2>
+                <hr class="h-1 border-gray-600" /> -->
                 <ul class="list-disc ml-4 mb-4 text-sm">
                     <li class="mb-2">
                         <div class="flex flex-col gap-1">
@@ -317,8 +348,11 @@
                 </ul>
 
                 <!-- Education -->
-                <h2 class="text-lg text-center">EDUCATION</h2>
-                <hr class="h-1 border-gray-600" />
+                <div class="title-container">
+                    <h2 class="text-lg title">Education</h2>
+                </div>
+                <!-- <h2 class="text-lg text-center">EDUCATION</h2>
+                <hr class="h-1 border-gray-600" /> -->
                 <div class="flex flex-col gap-1 text-sm">
                     <div class="flex justify-between items-center text-base">
                         <h3 class="font-medium text-base text-gray-600">IMS Ghaziabad</h3>
@@ -345,8 +379,11 @@
                 </div>
 
                 <!-- Languages -->
-                <h2 class="text-lg text-center">LANGUAGES</h2>
-                <hr class="h-1 border-gray-600" />
+                <div class="title-container">
+                    <h2 class="text-lg title">Languages</h2>
+                </div>
+                <!-- <h2 class="text-lg text-center">LANGUAGES</h2>
+                <hr class="h-1 border-gray-600" /> -->
                 <ul class="list-disc text-sm ml-4">
                     <li>Hindi - Native</li>
                     <li>English - Business Level</li>

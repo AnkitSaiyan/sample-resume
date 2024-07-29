@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    font-family: "Verdana", Courier, monospace;
+} */
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    /* position: relative; */
+    z-index: 2;
+    background-color: white;
+    padding: 0 24px;
+}
+
+.title-container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    /* z-index: 1; */
+    background-color: darkgray; /* Adjust the color as needed */
+}
+
+@media print {
+    * {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        size: auto !important;
+    }
+}
